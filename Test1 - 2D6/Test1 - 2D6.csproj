@@ -65,11 +65,22 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\main.css" />
+    <Content Include="img\d6_1.fw.png" />
+    <Content Include="img\d6_2.fw.png" />
+    <Content Include="img\d6_3.fw.png" />
+    <Content Include="img\d6_4.fw.png" />
+    <Content Include="img\d6_5.fw.png" />
+    <Content Include="img\d6_6.fw.png" />
+    <Content Include="index.html" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\main.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

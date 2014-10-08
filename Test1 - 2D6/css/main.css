@@ -1,0 +1,21 @@
+﻿/*
+    This file is: main.css
+    Author: Danny Luk 300709186
+    Date: Oct. 8, 2014
+    Desc: The styling for index.html
+*/
+body {
+    background-color: #e4c7ff;
+    padding-left:20px;
+}
+
+table {
+
+}
+
+tr{
+    padding-top:1px;
+    padding-bottom:1px;
+    margin-top:1px;
+    margin-bottom:1px;
+}
