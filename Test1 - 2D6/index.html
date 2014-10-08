@@ -1,0 +1,47 @@
+﻿<!--
+    This file is: index.html
+    Author: Danny Luk 300709186
+    Date: Oct. 8, 2014
+    Desc: This web page has dice to roll. Roll em. Check em. Twist em. Bop it.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Pair of Dice - The hit single from Hotplay</title>
+    <!-- CSS Section -->
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>This page contains die. 2 of them to be exact.</h1>
+    <p>Click the button below to roll the pair of, pair of, pair of dice</p>
+    <button id="BtnRoll">Roll 2D6</button> 
+
+    <br /><br />
+
+    <table>
+        <tr>
+            <th id="ResultsLabel" colspan="2"></th>
+        </tr>
+        <tr>
+            <td><h2 id="DiceLabel1"></h2></td>
+            <td><h2 id="DiceLabel2"></h2></td>
+        </tr>
+        <tr>
+            <td><img id="Dice1Pic" /></td>
+            <td><img id="Dice2Pic" /></td>
+        </tr>
+        <tr>
+            <td><h2 id="Dice1Result"></h2></td>
+            <td><h2 id="Dice2Result"></h2></td>
+        </tr>
+        <tr>
+            <th colspan="2"><h3 id="BonusText"></h3></th>
+        </tr>
+    </table>
+
+    <!-- JavaScript Section -->
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
